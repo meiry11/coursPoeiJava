@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EasyFlightPhase1/EasyFlightPhase1.iml" filepath="$PROJECT_DIR$/EasyFlightPhase1/EasyFlightPhase1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProxyBank-AA-MC/ProxyBank-AA-MC.iml" filepath="$PROJECT_DIR$/ProxyBank-AA-MC/ProxyBank-AA-MC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TDD_java/TPformationUnitTest11.iml" filepath="$PROJECT_DIR$/TDD_java/TPformationUnitTest11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/coursPoeiJava.iml" filepath="$PROJECT_DIR$/.idea/coursPoeiJava.iml" />
+    </modules>
+  </component>
+</project>

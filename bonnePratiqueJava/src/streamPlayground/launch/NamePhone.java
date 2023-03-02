@@ -5,9 +5,9 @@ public class NamePhone {
     private String name;
     private String phonenum;
 
-    public NamePhone(String name) {
-        this.name = name;
-        this.phonenum = phonenum;
+    public NamePhone(String n , String p) {
+        name = n;
+        phonenum = p;
     }
 
     public String getName() {

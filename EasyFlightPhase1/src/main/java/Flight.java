@@ -64,11 +64,18 @@ public class Flight {
         }
     }
 
-    public boolean removePassenger(Passenger p){
-        Flight flight = new Flight();
-       if(flight.typevol != "AFFAIRES" && flight.typevol != "ECONOMY"){
-           
+    public boolean removePassenger(Passenger passenger){
+       switch (typevol){
+           case "Economy":
+               if (!passenger.isVip()) {
+
+                   return passengers.remove(passenger);
+               }
+               return false;
+           case "AFFAIRES" :
+               return false;
+           default:
+               throw new RuntimeException("Unknown type:" + typevol);
        }
-        return false;
     }
 }

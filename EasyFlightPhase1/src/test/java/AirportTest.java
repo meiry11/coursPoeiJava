@@ -9,14 +9,20 @@ public class AirportTest {
 
 
     @Nested
-    class EconomyflightTest
-    {
-      private Flight economyFlght;
+    class EconomyflightTest {
+        private Flight economyFlght;
 
-      @BeforeEach
+        @BeforeEach
         void setUp() {
-          economyFlght = new Flight(1, "ECONOMY");
-      }
+
+            economyFlght = new Flight(1, "ECONOMY");
+        }
+    }
+
+    @DisplayName("Given there is a business flight")
+    @Nested
+    class BusinessFlightTest {
+
         @Test
       public void testEconomyFlightRegularPassenger(){
           Passenger mike = new Passenger("Mike",false);
